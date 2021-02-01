@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://bearwater.gitee.io/hexo/Gallery/index.html</loc>
+    
+    <lastmod>2021-02-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://bearwater.gitee.io/hexo/about/index.html</loc>
     
     <lastmod>2021-02-01</lastmod>
@@ -58,13 +65,6 @@
   </url>
   
   <url>
-    <loc>https://bearwater.gitee.io/hexo/Gallery.html</loc>
-    
-    <lastmod>2021-01-30</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://bearwater.gitee.io/hexo/Gallery/Background.html</loc>
     
     <lastmod>2021-01-28</lastmod>
@@ -81,13 +81,6 @@
 
   
   <url>
-    <loc>https://bearwater.gitee.io/hexo/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
-    <lastmod>2021-02-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://bearwater.gitee.io/hexo/tags/%E6%95%B0%E7%BB%84/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
@@ -101,14 +94,14 @@
     <priority>0.6</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://bearwater.gitee.io/hexo/categories/JAVA/</loc>
+    <loc>https://bearwater.gitee.io/hexo/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
+  
+
   
   <url>
     <loc>https://bearwater.gitee.io/hexo/categories/LeetCode/</loc>
@@ -119,6 +112,13 @@
   
   <url>
     <loc>https://bearwater.gitee.io/hexo/categories/Nodejs/</loc>
+    <lastmod>2021-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bearwater.gitee.io/hexo/categories/JAVA/</loc>
     <lastmod>2021-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
