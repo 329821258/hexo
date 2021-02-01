@@ -13,7 +13,7 @@ menu:
    标签: /tags/ || fas fa-tags
    分类: /categories/ || fas fa-folder-open
    List||fas fa-list:
-     - 音乐 || /music/ || fas fa-music
+    # - 音乐 || /music/ || fas fa-music
      - 电影 || /movies/ || fas fa-video
      - 照片 || /Gallery/ || fas fa-images
    友情链接: /link/ || fas fa-link
@@ -95,7 +95,8 @@ index_img: https://s3.ax1x.com/2021/01/29/yiXDTf.jpg
 
 # If the banner of page not setting, it will show the top_img 
 # 文章顶部图片
-default_top_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.66rpg.com%2Fbbs%2Fattachment%2Falbum%2F201607%2F25%2F170531dmwxsqgsu8wgsemw.jpg&refer=http%3A%2F%2Fattach.66rpg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614610440&t=9ca0b16c088cd970cc249a31fb0a6496
+default_top_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201612%2F23%2F20161223111648_EPrKv.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614787867&t=b8d7a88696d504b9d4bd92b32f1d9b67
+# https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.66rpg.com%2Fbbs%2Fattachment%2Falbum%2F201607%2F25%2F170531dmwxsqgsu8wgsemw.jpg&refer=http%3A%2F%2Fattach.66rpg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614610440&t=9ca0b16c088cd970cc249a31fb0a6496
 
 # The banner image of archive page
 archive_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.66rpg.com%2Fbbs%2Fattachment%2Falbum%2F201607%2F25%2F170531dmwxsqgsu8wgsemw.jpg&refer=http%3A%2F%2Fattach.66rpg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614610440&t=9ca0b16c088cd970cc249a31fb0a6496
@@ -111,7 +112,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: 
+category_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201612%2F23%2F20161223111648_EPrKv.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614787867&t=b8d7a88696d504b9d4bd92b32f1d9b67
 
 # The banner image of category page
 # format:

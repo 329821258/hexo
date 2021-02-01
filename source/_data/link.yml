@@ -1,0 +1,23 @@
+- class_name: 友情链接
+#  class_desc: 那些人，那些事
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网站框架
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: 王师傅和小毛毛
+      link: https://space.bilibili.com/452606628/
+      avatar: http://i1.hdslb.com/bfs/face/b89330ff519e87ad61f8e78e7af7bc4cdc9ca181.jpg@128w_128h_1o.webp
+      descr: 可口可乐终结者
+    - name: 片片
+      link: https://space.bilibili.com/10119428?from=search&seid=4064000166198857531
+      avatar: http://i2.hdslb.com/bfs/face/efdffa699545c92df188e14da12f212b2ae7a93b.jpg@128w_128h_1o.webp
+      descr: 悬疑烧脑电影解说
+    - name: O叔
+      link: https://space.bilibili.com/566258416?spm_id_from=333.788.b_765f7570696e666f.1
+      avatar: http://i0.hdslb.com/bfs/face/a524915c500d1753db78ab93dc1c5c977c2aa86d.jpg@128w_128h_1o.webp
+      descr: YYDS

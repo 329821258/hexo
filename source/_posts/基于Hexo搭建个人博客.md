@@ -64,8 +64,7 @@ hexo init hexo
 之后输入以下两条命令生成页面
 
 ``` 
-hexo g
-hexo s
+hexo g && hexo s
 ```
 
 ![image-20210130151747973](https://s3.ax1x.com/2021/01/30/ykn3Xn.png)
@@ -123,3 +122,54 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 
 后续相应的配置更改可以看下 Butterfly 的教程  https://butterfly.js.org/posts/4aa8abbe/
 
+## 5.发布到Gitee
+
+没有账号的话，先到 https://gitee.com/ 上申请注册账号。
+
+注册往后创建一个个人仓库路径和仓库名称随意
+
+[![ye6BnS.png](https://s3.ax1x.com/2021/02/01/ye6BnS.png)](https://imgchr.com/i/ye6BnS)
+
+填写后直接创建即可。然后回到个人主页找到刚刚创建的仓库，将仓库地址复制下来
+
+[![yecwCR.png](https://s3.ax1x.com/2021/02/01/yecwCR.png)](https://imgchr.com/i/yecwCR)
+
+然后回到hexo根目录 ，找到_config.yml文件，在底下配置gitee地址
+
+``` yaml
+# 把刚刚复制的地址粘贴到repo这里
+deploy:
+  type: git
+  repo: https://gitee.com/xxxx/hexo.git		
+  branch: master
+```
+
+打开命令行，安装自动部署工具，装完后重新发布（要输入gitee账号和密码）
+
+``` 
+npm install hexo-deployer-git --save 
+hexo clean && hexo g && hexo deploy
+```
+
+回到仓库就可以看到生成的静态文件了。
+
+[![yegdeS.png](https://s3.ax1x.com/2021/02/01/yegdeS.png)](https://imgchr.com/i/yegdeS)
+
+接下来在项目的服务中选择Pages选项,部署pages时需要绑定手机号码. 点击启动.
+
+[![ye2iOf.png](https://s3.ax1x.com/2021/02/01/ye2iOf.png)](https://imgchr.com/i/ye2iOf)
+
+启动完后就可以访问上图的网站地址，这时候看到的页面可能格式是乱的，回到hexo根目录，找到_config.yml文件，找到url，将网站的粘贴到那，然后root指定仓库路径
+
+``` 
+url: https://xxx.gitee.io/hexo
+root: /hexo
+```
+
+之后命令行重新发布,然后回到页面点一下更新，然后访问下网站地址就可以看到样式了
+
+``` 
+hexo clean && hexo g && hexo deploy
+```
+
+[![yeRuUe.png](https://s3.ax1x.com/2021/02/01/yeRuUe.png)](https://imgchr.com/i/yeRuUe)
