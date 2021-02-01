@@ -95,14 +95,14 @@ index_img: https://s3.ax1x.com/2021/01/29/yiXDTf.jpg
 
 # If the banner of page not setting, it will show the top_img 
 # 文章顶部图片
-default_top_img: 
+default_top_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.66rpg.com%2Fbbs%2Fattachment%2Falbum%2F201607%2F25%2F170531dmwxsqgsu8wgsemw.jpg&refer=http%3A%2F%2Fattach.66rpg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614610440&t=9ca0b16c088cd970cc249a31fb0a6496
 
 # The banner image of archive page
-archive_img: 
+archive_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.66rpg.com%2Fbbs%2Fattachment%2Falbum%2F201607%2F25%2F170531dmwxsqgsu8wgsemw.jpg&refer=http%3A%2F%2Fattach.66rpg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614610440&t=9ca0b16c088cd970cc249a31fb0a6496
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: 
+tag_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.66rpg.com%2Fbbs%2Fattachment%2Falbum%2F201607%2F25%2F170531dmwxsqgsu8wgsemw.jpg&refer=http%3A%2F%2Fattach.66rpg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614610440&t=9ca0b16c088cd970cc249a31fb0a6496
 
 # The banner image of tag page
 # format:
@@ -247,12 +247,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-    waline:
-        serverURL:  # Waline server address url
-        avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
-        bg: /image/comment_bg.png # waline background
-        emojiCDN: # emoji CDN
-        option:
+    - Valine
   # - Valine
   # - Disqus
   text: true # Display the comment name next to the button
@@ -300,8 +295,8 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  appId: LI78pTIKBP3SWjDALbi2fTHw-gzGzoHsz 
+  appKey: AgRJbGCvNQDjB0OQgOz8gzfS
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: en # i18n: zh-CN/zh-TW/en/ja
